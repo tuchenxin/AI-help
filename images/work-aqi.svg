@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" font-family="'JetBrains Mono', Consolas, monospace">
+  <rect width="1600" height="900" fill="#131518"/>
+  <text x="100" y="120" font-size="30" letter-spacing="6" fill="#8B9299">URBAN BREATH — AQI 2019 → 2024</text>
+  <g stroke="#272B30" stroke-width="1">
+    <line x1="100" y1="300" x2="1500" y2="300"/>
+    <line x1="100" y1="450" x2="1500" y2="450"/>
+    <line x1="100" y1="600" x2="1500" y2="600"/>
+    <line x1="100" y1="750" x2="1500" y2="750"/>
+  </g>
+  <path d="M100,560 C300,500 480,620 700,570 S1050,470 1250,540 S1420,590 1500,560 L1500,840 L100,840 Z" fill="#2E6E64" opacity="0.85"/>
+  <path d="M100,650 C320,610 520,700 760,650 S1120,590 1300,660 S1440,690 1500,660 L1500,840 L100,840 Z" fill="#E8442E" opacity="0.75"/>
+  <path d="M100,720 C340,690 560,760 820,720 S1200,680 1500,720 L1500,840 L100,840 Z" fill="#3A3F45" opacity="0.9"/>
+  <g font-size="22" fill="#8B9299">
+    <circle cx="1100" cy="170" r="9" fill="#3FB8AF"/><text x="1122" y="178">AQI 日历热力</text>
+    <circle cx="1300" cy="170" r="9" fill="#E8442E"/><text x="1322" y="178">供暖季</text>
+  </g>
+  <text x="100" y="806" font-size="22" letter-spacing="4" fill="#5F656C">HEATING SEASON × DUST DAYS · FIVE-YEAR STREAM</text>
+</svg>

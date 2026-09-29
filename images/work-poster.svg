@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" font-family="Georgia, 'Songti SC', 'SimSun', serif">
+  <rect width="1200" height="900" fill="#F2EBDD"/>
+  <rect x="140" y="120" width="420" height="580" fill="#E8442E"/>
+  <text x="440" y="230" font-size="96" font-weight="bold" fill="#FAF7F2" text-anchor="middle">字<tspan x="440" dy="112">里</tspan><tspan x="440" dy="112">行</tspan><tspan x="440" dy="112">间</tspan></text>
+  <rect x="520" y="220" width="420" height="580" fill="#161513"/>
+  <text x="810" y="330" font-size="96" font-weight="bold" fill="#FAF7F2" text-anchor="middle">海<tspan x="810" dy="112">报</tspan></text>
+  <text x="810" y="700" font-family="'JetBrains Mono', Consolas, monospace" font-size="22" letter-spacing="3" fill="#D9A441" text-anchor="middle">TYPE / GRID / EXPORT</text>
+  <text x="140" y="800" font-family="'JetBrains Mono', Consolas, monospace" font-size="22" letter-spacing="4" fill="#6B655B">POSTER GENERATOR — INPUT → LAYOUT → PNG</text>
+</svg>
