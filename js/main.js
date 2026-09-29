@@ -123,4 +123,16 @@
   /* ---------- 5. 页脚年份 ---------- */
   const year = document.getElementById("year");
   if (year) year.textContent = new Date().getFullYear();
+
+  /* ---------- 6. 深浅色主题切换（初始状态由 index.html 中的内联脚本设置） ---------- */
+  const themeBtn = document.querySelector(".theme-toggle");
+
+  if (themeBtn) {
+    themeBtn.addEventListener("click", function () {
+      const next =
+        document.documentElement.getAttribute("data-theme") === "dark" ? "light" : "dark";
+      document.documentElement.setAttribute("data-theme", next);
+      try { localStorage.setItem("theme", next); } catch (e) { /* 存储不可用时忽略 */ }
+    });
+  }
 })();
